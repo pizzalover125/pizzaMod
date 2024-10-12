@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "pizzamod",
+	"version": "${version}",
+	"name": "PizzaMod",
+	"description": "My actual first mod!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://pizzalover125.tech/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/pizzamod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.pizzalover125.pizzamod.PizzaMod"
+		],
+		"fabric-datagen": [
+			"com.pizzalover125.pizzamod.PizzaModDataGenerator"
+		],
+		"client": [
+			"com.pizzalover125.pizzamod.PizzaModClient"
+		]
+	},
+	"mixins": [
+		"pizzamod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

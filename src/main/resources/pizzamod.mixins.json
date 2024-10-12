@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.pizzalover125.pizzamod.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

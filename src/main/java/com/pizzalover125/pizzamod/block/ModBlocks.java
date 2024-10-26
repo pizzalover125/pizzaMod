@@ -38,6 +38,7 @@ public class ModBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
             entries.add(ModBlocks.CHEESE_BLOCK);
             entries.add(ModBlocks.DOUGH_BLOCK);
+            entries.add(ModBlocks.SAUCE_BLOCK);
         });
     }
 }

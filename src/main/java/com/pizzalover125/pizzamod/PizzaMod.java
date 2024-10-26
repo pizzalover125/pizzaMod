@@ -1,5 +1,6 @@
 package com.pizzalover125.pizzamod;
 
+import com.pizzalover125.pizzamod.block.ModBlocks;
 import com.pizzalover125.pizzamod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import okhttp3.OkHttpClient;
@@ -19,5 +20,6 @@ public class PizzaMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

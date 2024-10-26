@@ -1,4 +1,7 @@
 {
   "item.pizzamod.pizza": "Pizza",
-  "item.pizzamod.pizza_slice": "Pizza Slice"
+  "item.pizzamod.pizza_slice": "Pizza Slice",
+  "block.pizzamod.cheese_block": "Block of Cheese",
+  "block.pizzamod.dough_block": "Block of Dough",
+  "block.pizzamod.sauce_block": "Block of Sauce"
 }

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pizzamod:block/sauce_block"
+    }
+  }
+}

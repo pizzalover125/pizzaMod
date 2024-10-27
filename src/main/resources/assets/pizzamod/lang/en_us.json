@@ -1,9 +1,14 @@
 {
   "item.pizzamod.pizza": "Pizza",
   "item.pizzamod.pizza_slice": "Pizza Slice",
+  "item.pizzamod.cheese_slice": "Slice of Cheese",
+  "item.pizzamod.dough": "Piece of Dough",
+  "item.pizzamod.sauce": "Chunk of Frozen Sauce",
+
   "block.pizzamod.cheese_block": "Block of Cheese",
   "block.pizzamod.dough_block": "Block of Dough",
-  "block.pizzamod.sauce_block": "Block of Sauce",
+  "block.pizzamod.sauce_block": "Block of Frozen Sauce",
+
   "itemgroup.pizzamod.pizza_items": "Pizza Items",
   "itemgroup.pizzamod.pizza_blocks": "Pizza Blocks"
 }

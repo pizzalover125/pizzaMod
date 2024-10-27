@@ -11,6 +11,9 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item PIZZA = registerItem("pizza", new Item(new Item.Settings()));
     public static final Item PIZZA_SLICE = registerItem("pizza_slice", new Item(new Item.Settings()));
+    public static final Item CHEESE_SLICE = registerItem("cheese_slice", new Item(new Item.Settings()));
+    public static final Item DOUGH = registerItem("dough", new Item(new Item.Settings()));
+    public static final Item SAUCE = registerItem("sauce", new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(PizzaMod.MOD_ID, name), item);
@@ -22,6 +25,9 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.add(PIZZA);
             entries.add(PIZZA_SLICE);
+            entries.add(CHEESE_SLICE);
+            entries.add(DOUGH);
+            entries.add(SAUCE);
         });
     }
 }

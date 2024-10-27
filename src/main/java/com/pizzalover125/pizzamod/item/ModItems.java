@@ -9,9 +9,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item PIZZA = registerItem("pizza", new Item(new Item.Settings()));
-    public static final Item PIZZA_SLICE = registerItem("pizza_slice", new Item(new Item.Settings()));
-    public static final Item CHEESE_SLICE = registerItem("cheese_slice", new Item(new Item.Settings()));
+    public static final Item PIZZA = registerItem("pizza", new Item(new Item.Settings().food(ModFoodComponents.PIZZA)));
+    public static final Item PIZZA_SLICE = registerItem("pizza_slice", new Item(new Item.Settings().food(ModFoodComponents.PIZZA_SLICE)));
+    public static final Item CHEESE_SLICE = registerItem("cheese_slice", new Item(new Item.Settings().food(ModFoodComponents.CHEESE_SLICE)));
     public static final Item DOUGH = registerItem("dough", new Item(new Item.Settings()));
     public static final Item SAUCE = registerItem("sauce", new Item(new Item.Settings()));
 

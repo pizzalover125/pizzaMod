@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "pizzamod:sauce_block"
+    }
+  ],
+  "results": {
+    "count": 9,
+    "id": "pizzamod:sauce"
+  }
+}

@@ -19,6 +19,9 @@ public class ModItemGroups {
                             .entries((displayContext, entries) -> {
                                 entries.add(ModItems.PIZZA);
                                 entries.add(ModItems.PIZZA_SLICE);
+                                entries.add(ModItems.SAUCE);
+                                entries.add(ModItems.CHEESE_SLICE);
+                                entries.add(ModItems.DOUGH);
 
                             }).build());
 

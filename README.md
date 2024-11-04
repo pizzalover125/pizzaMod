@@ -1,8 +1,7 @@
 # pizzaMod
-Welcome to pizzaMod! I'm pizzalover125, 
-a genuine person who loves pizza! Most people 
-also love pizza, so I made pizzaMod. pizzaMod
-is a mod that adds pizza to MC. It was made
-using Fabric and Java.
+Welcome to pizzaMod! I'm pizzalover125,
+a lover of pizza. Pizza is a really popular food,
+which is why I created pizzaMod. It simply adds 
+pizza to MC! That's it!
 
 View project on Modrinith: [Link go here]

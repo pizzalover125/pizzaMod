@@ -1,28 +1,24 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "food",
-  "ingredients": [
-    {
+  "key": {
+    "#": {
       "item": "pizzamod:dough"
     },
-    {
-      "item": "pizzamod:dough"
-    },
-    {
+    "X": {
       "item": "pizzamod:cheese_slice"
     },
-    {
-      "item": "pizzamod:cheese_slice"
-    },
-    {
-      "item": "pizzamod:sauce"
-    },
-    {
+    "Y": {
       "item": "pizzamod:sauce"
     }
+  },
+  "pattern": [
+    "XX",
+    "YY",
+    "##"
   ],
   "result": {
     "count": 2,
-    "item": "pizzamod:pizza_slice"
+    "id": "pizzamod:pizza_slice"
   }
 }

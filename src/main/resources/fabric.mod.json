@@ -23,6 +23,9 @@
 		],
 		"client": [
 			"com.pizzalover125.pizzamod.PizzaModClient"
+		],
+		"terrablender": [
+			"com.pizzalover125.pizzamod.world.biome.ModTerrablenderAPI"
 		]
 	},
 	"mixins": [

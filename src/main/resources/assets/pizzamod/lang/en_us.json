@@ -1,6 +1,7 @@
 {
   "item.pizzamod.pizza": "Pizza",
-  "item.pizzamod.pizza_slice": "Pizza Slice",
+  "item.pizzamod.pizza_slice": "Slice of Pizza",
+  "item.pizzamod.raw_pizza_slice": "Raw Slice of Pizza",
   "item.pizzamod.cheese_slice": "Slice of Cheese",
   "item.pizzamod.dough": "Piece of Dough",
   "item.pizzamod.sauce": "Chunk of Frozen Sauce",

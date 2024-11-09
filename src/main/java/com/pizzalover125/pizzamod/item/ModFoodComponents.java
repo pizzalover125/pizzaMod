@@ -25,4 +25,9 @@ public class ModFoodComponents {
             .nutrition(4)
             .saturationModifier(0.4f)
             .build();
+
+    public static final FoodComponent TOMATO = new FoodComponent.Builder()
+            .nutrition(2)
+            .saturationModifier(0.2f)
+            .build();
 }

@@ -15,6 +15,7 @@ public class ModItems {
     public static final Item DOUGH = registerItem("dough", new Item(new Item.Settings()));
     public static final Item SAUCE = registerItem("sauce", new Item(new Item.Settings()));
     public static final Item RAW_PIZZA_SLICE = registerItem("raw_pizza_slice", new Item(new Item.Settings().food(ModFoodComponents.RAW_PIZZA_SLICE)));
+    public static final Item TOMATO = registerItem("tomato", new Item(new Item.Settings().food(ModFoodComponents.TOMATO)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(PizzaMod.MOD_ID, name), item);
@@ -30,6 +31,7 @@ public class ModItems {
             entries.add(DOUGH);
             entries.add(SAUCE);
             entries.add(RAW_PIZZA_SLICE);
+            entries.add(TOMATO);
         });
     }
 }

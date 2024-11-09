@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "#": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "count": 8,
+    "id": "pizzamod:cheese_slice"
+  }
+}

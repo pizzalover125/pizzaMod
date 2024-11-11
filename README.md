@@ -7,4 +7,4 @@ Minecraft is a really popular game,
 which is why I created pizzaMod.
 
 ### installation
-View and install project on Modrinith: [Link go here]
+View and install project on Modrinith: https://modrinth.com/mod/pizza-mod

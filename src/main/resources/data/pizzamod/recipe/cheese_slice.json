@@ -6,8 +6,8 @@
       "item": "pizzamod:cheese_block"
     }
   ],
-  "results": {
+  "result": {
     "count": 9,
-    "id": "pizzamod:cheese_slice"
+    "item": "pizzamod:cheese_slice"
   }
 }

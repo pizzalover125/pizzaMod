@@ -7,12 +7,14 @@ import net.minecraft.entity.effect.StatusEffects;
 public class ModFoodComponents {
     public static final FoodComponent PIZZA = new FoodComponent.Builder()
             .nutrition(12)
-            .saturationModifier(1.2f)
+            .saturationModifier(1.8f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 600, 0), 0.9f)
             .build();
 
     public static final FoodComponent PIZZA_SLICE = new FoodComponent.Builder()
             .nutrition(6)
             .saturationModifier(0.6f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 200, 0), 0.25f)
             .build();
 
     public static final FoodComponent RAW_PIZZA_SLICE = new FoodComponent.Builder()

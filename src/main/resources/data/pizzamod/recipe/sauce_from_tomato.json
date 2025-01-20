@@ -3,7 +3,7 @@
   "category": "food",
   "key": {
     "#": {
-      "item": "minecraft:tomato"
+      "item": "pizzamod:tomato"
     }
   },
   "pattern": [

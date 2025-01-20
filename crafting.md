@@ -4,16 +4,18 @@
 - Dough -> Dough Block
 - Wheat -> Dough
 - Tomato -> Sauce
-- Cheese Block -> Cheese Slice
 - Dough Block -> Dough
 - Pizza -> Pizza Slice
+- Sauce -> Sauce Block
+- Ingredients -> Raw Pizza Slice
+- Cheese Block -> Cheese Slice
+- Raw Pizza -> Pizza Slice
 
 ### Not Working:
 
 
+
 ### Untested:
-- Raw Pizza -> Pizza Slice
-- Ingredients -> Pizza Slice
-- Sauce Block -> Sauce
-- Sauce -> Sauce Block 
+
+
 

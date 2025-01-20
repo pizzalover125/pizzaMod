@@ -1,10 +1,12 @@
 {
   "type": "minecraft:smelting",
-  "category": "food",
+  "category": "misc",
   "cookingtime": 200,
-  "experience": 0.35,
+  "experience": 0.2,
   "ingredient": {
     "item": "pizzamod:raw_pizza_slice"
   },
-  "result": "pizzamod:pizza_slice"
+  "result": {
+    "id": "pizzamod:pizza_slice"
+  }
 }

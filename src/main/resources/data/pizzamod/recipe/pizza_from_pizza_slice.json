@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "pizzamod:pizza_slice"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "pizzamod:pizza"
+  }
+}
